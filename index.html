@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/carousel.css">
+    <!-- <link rel="stylesheet" href="resources/vendor/cover.css"> -->
+    <title>BMP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="#about" class="navbar-brand">
+            <h3 id="top" class="mb-0">BMP</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#hours" class="nav-link">Hours</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#social" class="nav-link">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-us" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://darksky.net/forecast/40.663,-74.13/us12/en" class="nav-link">Weather</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay"></div>
+        <div id="header" class="container text-white text-center">
+            <h3 class="display-5 mb-0">Bayonne, NJ</h3>
+            <h1 class="display-4">BAYONNE MUNICIPAL POOL</h1>
+            <button id="dive" class="btn btn-lg btn-primary px-5">Dive In</button>
+        </div>
+    </section>
+
+    <!-- Marketing messaging and featurettes -->
+    <!-- =================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+   <section id="about">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="images/swimmer.svg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Swim Lessons</h2>
+                    <p>Please stay tuned for summer 2019.  We will be offering the following:</p>
+                        <ul>
+                            <li>Children Swim Lessons</li>
+                            <li>Adult Swim Lessons</li>
+                            <li>Special Needs Swim Lessons</li>
+                            <li>Mommy & Me classes</li>
+                        </ul>
+                    <p><a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#bookingModal">Register Now &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="images/swimmer_2.svg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Swim Team</h2>
+                    <p>The Bayonne Municipal Pool is home to one of the best swim teams in New Jersey.</p>
+                    <p><a class="btn btn-primary" href="https://www.teamunify.com/Home.jsp?team=njbms" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="images/swimming-pool-light.svg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Activities</h2>
+                    <p>Please stay tuned for summer 2019.  We will be offering the following:</p>
+                        <ul>
+                            <li>Birthday Parties Reservations</li>
+                            <li>Swim Nights</li>
+                            <li>Movie Nights</li>
+                            <li>Float Nights</li>
+                        </ul>
+                    <p><a class="btn btn-primary" href="#" role="button">Comming Soon! &raquo;</a></p>
+                </div>
+            </div>
+    
+    <!-- START THE FEATURETTES -->
+       
+            <hr class="featurette-divider">
+                    
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Pool Location. <span class="text-muted">16th Street Park.</span></h2>
+                    <p class="lead">The Bayonne Municipal Pool is located in Bayonne, NJ.  The pool is in the 16 Street Park by the Newark Bay.</p>
+                </div>
+                <div class="col-md-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.501190228174!2d-74.13147954880348!3d40.66292467923581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25203f1843523%3A0x311a7f1e05db8aff!2sBayonne+Municipal+Pool%2C+Bayonne%2C+NJ+07002!5e0!3m2!1sen!2sus!4v1543080384892" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h3 class="featurette-heading mt-3">Pool <span class="text-muted">Admission</span></h3>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr class="bg-dark text-white">
+                                <th scope="col"></th>
+                                <th scope="col">Reduced Rates</th>
+                                <th scope="col">Regular Price</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                                <tr class="bg-success">
+                                  <th scope="row">Children</th>
+                                  <td>$ 1.00</td>
+                                  <td>$ 5.00</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Adults</th>
+                                  <td>$ 3.00</td>
+                                  <td>$ 5.00</td>
+                                </tr>
+                                <tr class="bg-success">
+                                  <th scope="row">Senior Citizens</th>
+                                  <td>$ 1.00</td>
+                                  <td>$ 5.00</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Guests</th>
+                                  <td>Not Applicable</td>
+                                  <td>$ 10.00</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                    <h3 class="featurette-heading mt-3">Season <span class="text-muted">Passes</span></h3>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr class="bg-dark text-white">
+                                <th scope="col"></th>
+                                <th scope="col">Regular Price</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                                <tr class="bg-success">
+                                  <th scope="row">Child Pass</th>
+                                  <td>$ 25.00/Summer</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Adult Pass</th>
+                                  <td>$ 100.00/Summer</td>
+                                </tr>
+                                <tr class="bg-success">
+                                  <th scope="row">Senior Citizens Pass</th>
+                                  <td>$ 40.00/Summer</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Family Pass</th>
+                                  <td>$ 200.00/Summer</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto py-3" src="images/Pic03.jpg" alt="Generic placeholder image">
+                    <p class="lead"> The BMP serves Bayonne residents.  Proof of residency is required at admission.  Proof of residency is any official document with name and Bayonne address.  If you're a Bayonne resident, you may apply for the Bayonne Residency ID card to come in with reduced rates.</p>
+                    <a class="text-success h4" href="City-ID.pdf">Residencey ID Card Application <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">G. Thomas Di Domenico Municipal Pool.</h2>
+                    <p class="lead text-muted">Dedicated, May 31, 1997.</p>
+                    <p>This pool is dedicated to the Honorable G. Thomas Di Domenico.  Di Domenico served as Bayonne's Mayor from 1955 - 1959.  While in office, he took part in activities that have benefited all citizens of Bayonne.  Thanks to his leadership and perseverance generations of boys and girls can enjoy his dream - <em>The Bayonne Municipal Pool</em></p>
+                    <p>Each season begins Memorial Day weekend, and open weekends only while schools are still in session.  The pool is then open everyday the day after High School graduates.  The pool remains open weather permitted until Labor Day.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="images/pool.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            
+            <hr class="featurette-divider">
+
+        </div>
+    </section>
+
+        <!-- END THE FEATURETTES -->
+
+        <!-- section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mb-3">
+                        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/Pic05.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/1.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/3.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/4.jpg" alt="" class="d-block w-100">
+                                </div>
+                            </div>
+                            <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                                <span class="carousel-control-prev-icon" aria-hidden="ture"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button">
+                                <span class="carousel-control-next-icon" aria-hidden="ture"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hours" class="col-lg-5">
+                        <h3 class="featurette-heading mt-2">Pool <span class="text-muted">Hours</span></h3>
+                        <table class="table table-sm">
+                            <thead>
+                              <tr class="bg-dark text-white">
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="bg-primary">
+                                <th scope="row">Monday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Tuesday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr class="bg-primary">
+                                <th scope="row">Wednesday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Thursday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr class="bg-primary">
+                                <th scope="row">Friday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Saturday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                              <tr class="bg-primary">
+                                <th scope="row">Sunday</th>
+                                <td>10:30 am</td>
+                                <td>5:00 pm</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <p class="lead">Please Note:</p>
+                        <p>The pool gate closes at <strong>4pm</strong> each day.  The final whistle blows at <strong>4:45pm</strong>.  Everyone must exit the facility no later than <strong>5:15pm.</strong></p>
+                        <p><mark>Senior Swim is <strong>Monday - Friday 9:30am - 10:30am.</strong></mark></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <section id="contact-us" class="bg-dark">
+            <div class="container text-white text-center py-5">
+                <p class="lead">JOIN OUR NEWSLETTER: Future Feature: Coming Soon</p>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                        <form action="" class="form-inline">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="YOUR EMAIL">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary">Join Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="p-3 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul class="flex-sm-row">
+                            <li class="nav-item">
+                                <h5 class="nav-link text-danger">Important Links</h5>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://www.bayonnenj.org/" class="nav-link text-white">City of Bayonne</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.leaguelineup.com/welcome.asp?url=bayonnerec" class="nav-link text-white">Dept. of Recreation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://njpma.org/" class="nav-link text-white">NJPMA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.cdc.gov/" class="nav-link text-white">CDC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.osha.gov/" class="nav-link text-white">OSHA</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="social" class="col-lg-4">
+                            <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+                                <li class="nav-item">
+                                    <h5 class="nav-link text-muted">Social Media</h5>
+                                </li>
+                            </ul>
+                            <ul  class="nav text-center justify-content-center flex-sm-row">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                            <ul  class="nav text-center justify-content-center flex-sm-row">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-muted display-4"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="flex-sm-row">
+                            <li class="nav-item">
+                                <h5 class="text-white text-danger m-0 py-1">Pool Address:</h5>
+                                <p class="text-white m-0 p-0">179 16 Street</p>
+                                <p class="text-white m-0 p-0">Bayonne, NJ 07002</p>
+                                <p class="text-white m-0 p-0">201-858-6159</p>
+                                <hr>
+                                <a class="text-white" href="#top">Back to top</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODAL -->
+
+        <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Lesson Registration</h5>
+                        <button class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Future Feature, Please come back later!</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="adults">Number of Adults</label>
+                                <select class="form-control" id="adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="children">Number of Children</label>
+                                <select class="form-control" id="children">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Requests">Additional Requests</label>
+                                <textarea class="form-control" id="Requests" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Submit</button>
+                        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+       
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+colt: #36b3a8
+
+*/
+
+// override default colors
+$theme-colors: (
+    "secondary": #1f1f1f
+);
+
+// import bootstrap
+
+@import "../bootstrap/scss/bootstrap.scss";
