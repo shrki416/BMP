@@ -1,6 +1,6 @@
 # BMP
 
-Checkout the project [HERE](https://shrki416.github.io/Calculator-App/)
+Checkout the project [HERE](http://bmpnj.com/)
 
 A informational website developed for our local pool.
 
